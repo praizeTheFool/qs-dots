@@ -1,0 +1,11 @@
+# qmldir for shell/
+# Registers singletons and module components so all QML files
+# can reference Theme and HyprlandService without path imports.
+
+singleton Theme          1.0 Theme.qml
+singleton HyprlandService 1.0 services/Hyprland.qml
+
+Bar      1.0 modules/bar/Bar.qml
+BarLeft  1.0 modules/bar/BarLeft.qml
+BarCenter 1.0 modules/bar/BarCenter.qml
+BarRight 1.0 modules/bar/BarRight.qml
